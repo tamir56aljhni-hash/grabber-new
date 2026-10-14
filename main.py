@@ -27,3 +27,4 @@ if __name__ == '__main__':
     server = ('0.0.0.0', 10000)
     httpd = http.server.HTTPServer(server, GrabberHandler)
     httpd.serve_forever()
+         
